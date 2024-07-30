@@ -1,5 +1,4 @@
 # 2236. Root Equals Sum of Children
-
 class Solution(object):
     def checkTree(self, root):
         """
