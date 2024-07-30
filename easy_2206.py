@@ -1,5 +1,4 @@
 # 2206. Divide Array Into Equal Pairs
-
 class Solution:
     def divideArray(self, nums: List[int]) -> bool:
         count = Counter(nums)
