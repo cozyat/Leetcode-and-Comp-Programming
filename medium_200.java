@@ -4,7 +4,6 @@ public class Solution {
         if (grid == null || grid.length == 0) {
             return 0;
         }
-
         int numIslands = 0;
 
         for (int i = 0; i < grid.length; i++) {
@@ -14,7 +13,6 @@ public class Solution {
                 }
             }
         }
-
         return numIslands;
     }
 
@@ -22,7 +20,6 @@ public class Solution {
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[i].length || grid[i][j] == '0') {
             return 0;
         }
-
         grid[i][j] = '0';
         depthFirstSearch(grid, i + 1, j);
         depthFirstSearch(grid, i - 1, j);
