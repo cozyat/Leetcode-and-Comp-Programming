@@ -1,10 +1,6 @@
 # 420. Strong Password Checker
 class Solution(object):
     def strongPasswordChecker(self, password):
-        """
-        :type password: str
-        :rtype: int
-        """
         missing_types = 3 - sum((int(any(c.islower() for c in password)),
                          int(any(c.isupper() for c in password)),
                          int(any(c.isdigit() for c in password))))
@@ -36,3 +32,8 @@ class Solution(object):
             total_changes -= max(deletions_needed - one_change - 2 * two_change, 0) // 3
             
             return deletions_needed + max(missing_types, total_changes)
+            
+        """
+        :type password: str
+        :rtype: int
+        """
