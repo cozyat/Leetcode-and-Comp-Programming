@@ -1,0 +1,5 @@
+*.sql linguist-language=SQL
+*.sql linguist-language=OpenStep-Property-List
+*.sql linguist-language=sql
+*.sql linguist-language=SQL
+*.sql linguist-language=SEQUEL
