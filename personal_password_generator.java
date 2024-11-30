@@ -10,7 +10,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-@SuppressWarnings("all")
+@SuppressWarnings("all");
 public class passwordGenerator {
     private static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
     private static StringBuilder sb = new StringBuilder();
